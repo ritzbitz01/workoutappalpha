@@ -42,6 +42,15 @@ myApp.config(['$routeProvider', function($routeProvider) {
         }
       }
     }).
+    when('/workouts', {
+      templateUrl: 'views/workouts.html',
+      controller: 'WorkoutsController',
+      resolve : {
+        currentAuth: function(Authentication) {
+          return Authentication.requireAuth();
+        }
+      }
+    }).
     otherwise({
       redirectTo: '/login'
     });

@@ -598,3 +598,19 @@ nav ul li a:hover {
 .checkinslist h1 { color: #AC3213; }
 .checkinslist h2 { color:#145569; }
 .checkinslist h3 { color: #657B83; }
+
+.workoutTypeSelect {
+   margin: 10px;
+   border: 1px solid #111;
+   background: transparent;
+   width: 150px;
+   padding: 5px 35px 5px 5px;
+   font-size: 16px;
+   border: 1px solid #ccc;
+   height: 34px;
+   float: left;
+   -webkit-appearance: none;
+   -moz-appearance: none;
+   appearance: none;
+    background: url(downtriangle.jpg) 96% / 15% no-repeat #eee;
+} 
